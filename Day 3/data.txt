@@ -1,0 +1,12 @@
+Roll|		Name		| Dept | HoD
+01  | Akshay Anand		| CSE  | SuB
+02  | Ananya Das		| CSE  | SuB
+03  | Shreya Sil		| IT   | AKS
+04  | Abhilash Misra		| EE   | Who knows
+05  | Arnab Sen			| ECE  | SSg
+06  | Nikuta Mishra		| CSE  | SuB
+07  | Kasturi Saha		| IT   | AKS
+08  | Srijita Chakraborty	| ECE  | SSg
+09  | Avranil Maity		| EE   | Who knows
+10  | Aritra Nandy		| CSE  | SuB
+ 
