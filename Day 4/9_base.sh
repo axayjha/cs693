@@ -1,3 +1,8 @@
+#!/bin/bash
+#
+# Base conversion program
+# Akshay
+# 18/03/18
 
 echo -n "Enter the number: "
 read n
@@ -48,7 +53,7 @@ do
 	# now comparing with input base
 	if [ $dig -ge $ib ];
 	then
-		echo "Input has a digit greater than base";
+		echo "Input has a digit greater than input base";
 		exit;
 	fi
 done
