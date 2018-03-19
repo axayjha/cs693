@@ -11,6 +11,12 @@ read n
 # digits beyond 9
 n=`echo "$n" | tr [:lower:] [:upper:]`
 
+if ! [[ $n =~ ^-?[A-Fa-f0-9]+$ ]];
+then
+	echo "Not a valid number"
+	exit;
+fi
+
 echo -n "Enter input base: "
 read ib
 # making sure input base has no chars
