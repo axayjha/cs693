@@ -5,17 +5,17 @@
 #include <limits.h>
 #include <stdint.h>
 
-int main(int argc, char **argv)
+int main (int argc, char **argv)
 {	
 	int p;
 	p = fork();
-	if(p == 0)
+	if (p == 0)
 	{
 		printf("CHild process\n");
 		
 		
 	}	
-	else if(p>0)
+	else if (p > 0)
 	{	
 		sleep(5);
 		printf("parent process\n");
