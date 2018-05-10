@@ -11,9 +11,8 @@ int main(int argc, char **argv)
 	p=fork();
 	if(p == 0)
 		printf("Child process: %d\n", ++i);
-	if(p>0){
-		printf("Parent process: %d\n", i);
-	}
+	else if(p > 0)
+		printf("Parent process: %d\n", i);	
 	else
 		printf("Error\n");
 	return 0;
